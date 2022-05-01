@@ -46,18 +46,25 @@
             <div class="container skillsets" id="skillset">
                 <h2 class="skill col-md-10 col-lg-10 col-xl-10 d-flex justify-content-center">SKILL SET</h2>
                 <div class="owl-carousel owl-theme carousel justify-content-center">
-                    <div class="item"><h4>1</h4></div>
-                    <div class="item"><h4>2</h4></div>
-                    <div class="item"><h4>3</h4></div>
-                    <div class="item"><h4>4</h4></div>
-                    <div class="item"><h4>5</h4></div>
+                    <div class="item"><a href="http://html.com" target="_blank">
+                        <img class="image" src="images/html.png" alt="HTML" title="HTML"/>
+                    </a></div>
+                    <div class="item"><a href="http://css.com" target="_blank">
+                        <img class="image" src="images/css.png" alt="CSS" title="CSS"/>
+                    </a></div>
+                    <div class="item"><a href="http://javascript.com" target="_blank">
+                        <img class="image" src="images/js.jpg" alt="JS" title="JS" />
+                    </a></div>
+                    <div class="item"><a href="https://www.php.net/docs.php" target="_blank">
+                        <img class="image" src="images/php.png" alt="PHP" title="PHP"/>
+                    </a></div>
+                    <div class="item"><a href="https://devdocs.magento.com/" target="_blank">
+                        <img class="image" src="images/magento.jpg" alt="Magento" title="Magento"/>
+                    </a></div>
                     <div class="item"><h4>6</h4></div>
                     <div class="item"><h4>7</h4></div>
                     <div class="item"><h4>8</h4></div>
                     <div class="item"><h4>9</h4></div>
-                    <div class="item"><h4>10</h4></div>
-                    <div class="item"><h4>11</h4></div>
-                    <div class="item"><h4>12</h4></div>
                 </div>   
             </div>
         </div>
@@ -80,8 +87,28 @@
             <!-- <div class="background-img">
                 <img src="images/background-image-2.jpg">
             </div> -->
-            <div class="container mycontacts" id="mycontact">
+            <div class="container mycontacts" id="contactme">
                 <h2 class="skill col-md-10 col-lg-10 col-xl-10 d-flex justify-content-center">Contact Me</h2>
+                <div class="contacts">
+                    <div class="location col-md-4 col-lg-4 col-xl-4">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3946245.8566450705!2d74.07335301331581!3d15.006259531533853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba35a4c37bf488f%3A0x41f1d28cd1757cd5!2sKarnataka!5e0!3m2!1sen!2sin!4v1645469175430!5m2!1sen!2sin" ></iframe>
+                    </div>
+                    <div class="text_here col-md-5 col-lg-5 col-xl-5">
+                        <input type="text" class="name" placeholder="Your Good Name Please"/>
+                        <input type="text" class="email" placeholder="Enter email here"/>
+                        <input type="text" class="query" placeholder="Please submit your queries here"/>
+                        <button type="button" class="btn btn-info">Submit</button>
+                        <div class="social">
+                            <ul>
+                                <li><a href="#aboutme">About Me</a></li>
+                                <li><a href="#skillset">Skill Set</a></li>
+                                <li><a href="#mywork">Experience</a></li>
+                                <li><a href="#contactme">Contact Me</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <hr class="line">
             </div>
         </div>
         <script>
@@ -97,10 +124,10 @@
                     items:1
                 },
                 600:{
-                    items:2
+                    items:3
                 },
                 1000:{
-                    items:3
+                    items:5
                 }
             }
         });
